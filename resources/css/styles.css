@@ -1,15 +1,41 @@
 body {
+    width: 100%;
     background-color: black;
-}
-h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* section 1 */
+.top {
+    text-align: center;
+}
+.top h1 {
     font-weight: normal;
     font-size: 50px;
     color: white;
-    text-align: center;
 }
-main a {
-    text-align: center;
+.top p, a {
     color: aquamarine;
     font-size: 16px;
+}
+.top video {
+    object-fit: contain;
+}
+/* section 2 */
+.middle {
+    text-align: center;
+}
+.middle h1 {
+    color: white;
+    font-weight: 300;
+    font-size: 42px;
+}
+.middle p {
+    font-size: 21px;
+    color: gray;
+}
+/* end of section 2 */
+footer p {
+    font-size: 21px;
+    color: gray;
+    text-align: right;
+    padding-right: 10px;
 }
